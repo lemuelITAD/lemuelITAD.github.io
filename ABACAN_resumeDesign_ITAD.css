@@ -1,3 +1,7 @@
+*{
+    margin-top: 0%;
+}
+
 body{
     background-color: plum;
 }
@@ -16,7 +20,7 @@ h1{
     
 }
 h2{
-    text-align: center;
+    margin-left: 30%;
     text-decoration: underline;
     font-family: Georgia, 'Times New Roman', serif;
 }
@@ -48,9 +52,10 @@ mark{
 }
 
 address{
-    text-align: center;
+    margin-left: 300px;
     font-size: 20px;
     font-family: Verdana, 'Trebuchet MS', Arial, sans-serif;
+    line-height: 50px;
 }
 
 ul.b {
@@ -114,4 +119,67 @@ h3{
     text-shadow: 6px 6px 8px gray;
     margin-left: 70px;
     font-family: Georgia, 'Times New Roman', serif;
+}
+
+p.header{
+    text-indent: 0%;
+    word-spacing: 80px;
+    font-size: 27px;
+    font-family: Rockwell;
+    text-shadow: 6px 6px 8px gray;
+}
+div.headerBackGround{
+    background-color: #000080;
+    height: 2em;
+    width: auto;
+}
+
+img.arrowButton{
+    height: 50px;
+    width: 50px;
+    bottom: 0%;
+    right: 0%;
+    float: right;
+    position: fixed;
+    opacity: 75%;
+}
+
+
+.button a:link{color: yellow;padding: 7px; text-decoration:none;}
+.button a:visited{color:yellowgreen;}
+.button a:hover{color: white; }
+.button a:active{color: red;}
+
+.button2 a:link{color: rgb(202, 240, 142);padding: 7px; text-decoration:none;}
+.button2 a:visited{color: rgb(15, 26, 119);}
+.button2 a:hover{color: white; }
+.button2 a:active{color: red;}
+
+.icon1{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.icon2{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.icon3{
+    width: 25px;
+    height: 45px;
+    vertical-align: text-bottom;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+img.vertical{
+    height: 400px;
+    width: 300px;
 }

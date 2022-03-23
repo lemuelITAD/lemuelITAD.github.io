@@ -1,0 +1,149 @@
+*{
+    margin-top: 0%;
+}
+body{
+    background-color: skyblue;   
+}
+blockquote{
+    font-family: Verdana, 'Trebuchet MS', Arial, sans-serif;
+    line-height: 28px;
+    letter-spacing: 1px;
+    word-spacing: 0.8px;
+}
+p{
+    font-family: Verdana, 'Trebuchet MS', Arial, sans-serif;
+    line-height: 28px;
+    letter-spacing: 1px;
+    word-spacing: 0.8px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+blockquote{
+    text-indent: 50px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5em;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+mark{
+    color: greenyellow;
+    background-color: #000000;
+}
+
+img.arrowButton{
+    height: 50px;
+    width: 50px;
+    bottom: 0%;
+    right: 0%;
+    float: right;
+    position: fixed;
+    opacity: 75%;
+}
+
+img.vertical{
+    height: 400px;
+    width: 300px;
+}
+
+img.horizontal{
+    height: 300px;
+    width: 500px;
+}
+
+hr{
+    size: 2px;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+hr.line{
+    text-align: center;
+    width: 50%;
+}
+
+hr.line2{
+    text-align: center;
+    width: 40%;
+}
+
+div.justify{
+    text-align: justify;
+}
+
+div.center{
+    text-align: center;
+}
+
+div.spacing{
+    word-spacing: 100px;
+}
+p.header{
+    word-spacing: 110px;
+    font-size: 27px;
+    font-family: Rockwell;
+    text-shadow: 6px 6px 8px gray;
+}
+div.headerBackGround{
+    background-color: #000080;
+    height: 2em;
+    width: auto;
+}
+div.margin{
+    margin: 50px;
+}
+address{
+    color: blue;
+}
+a{
+    text-decoration: none;
+}
+
+div.box1{
+    padding: 50px;
+    margin-right: 40%;
+    margin-left: 40px;
+    border-style: dashed;
+    background-color: #f0e9e9;
+    text-align: justify;
+}
+
+figure{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+figcaption{
+    display: block;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: .25em;
+    margin-bottom: 1em;
+
+}
+
+.button a:link{color: yellow;padding: 7px; text-decoration:none;}
+.button a:visited{color:yellowgreen;}
+.button a:hover{color: white; }
+.button a:active{color: red;}
+
+.button2 a:link{color: rgb(202, 240, 142);padding: 7px; text-decoration:none;}
+.button2 a:visited{color: rgb(15, 26, 119);}
+.button2 a:hover{color: white; }
+.button2 a:active{color: red;}
+
+.button3 img:hover{background-color: rgb(214, 194, 194); }
