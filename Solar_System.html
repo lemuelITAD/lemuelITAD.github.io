@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>	
+	<base target="newSpace">
+	<meta charset="utf-8">
+	<title>Planets</title>
+	
+	<script language="JavaScript">
+		function writeText (txt) {
+			document.getElementById("desc").innerHTML=txt;
+		}
+
+		function dissolveText(txt) {
+			document.getElementById("desc").innerHTML=txt;
+		}
+
+	</script>
+	<style type="text/css">
+		body{
+			margin: 10px;
+			background-color: black;
+		}
+		h1{
+			font-family: Georgia, 'Times New Roman', Times, serif;
+			font-size: 50px;
+			color: cyan;
+			text-align: center;
+			text-shadow: 5px 5px 20px white;
+		}
+		img{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			border: 3px white;
+		}
+		p#desc{
+			font-family: tahoma;
+			font-size: 18px;
+			color: white;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css">
+	<!--ABACAN, RAFAEL LEMUEL M-->
+	<!--23/03/2022-->
+	
+	<br><br>
+	<h1>The Solar System</h1>
+	<img src="A/solar_system2.jpg" usemap="#solarSystem">
+	<map name="solarSystem">
+		<area shape="rect" coords="21, 275, 208, 464" href="Jupiter.html" target="_newSpace"
+		onmouseover="writeText('Jupiter: The fifth planet from the sun');" 
+		onmouseout="dissolveText('')"/>
+
+		<area shape="circle" coords="613, 137, 64" href="Sun.html" target="_newSpace" 
+		onmouseover="writeText('Sun: It is hot');" 
+		onmouseout="dissolveText('')"/>
+
+		<area shape="poly" coords=
+		"126, 63, 151, 48 ,180, 46, 210, 53, 224, 44, 254, 31, 283, 20, 305, 17, 313, 19, 312, 26, 
+		295,54, 243, 105, 241, 125,	236, 147, 222, 167, 191, 186, 175, 192, 148, 191, 128, 187,
+		54, 223, 31,226, 25, 211, 37, 192, 69, 162, 93, 138, 94, 113, 103,91, 116, 72, 126, 63" 
+		href="Saturn.html" target="_newSpace"
+		onmouseover="writeText('Saturn: The sixth planet from the sun');" 
+		onmouseout="dissolveText('')"/>
+	</map>
+
+	<p id="desc"></p>
+</body>
+</html>
