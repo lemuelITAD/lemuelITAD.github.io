@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IMAGE MAPPING ACTIVITY</title>
+        <base target = "winPlanets">
+        <script language = "JavaScript">
+
+            function writeText(txt) {
+                document.getElementById("desc").innerHTML = txt;
+            }
+            function dissolveText(txt) {
+                document.getElementById("desc").innerHTML = txt;
+            }
+        </script>
+        <style>
+            body {
+                background-color: rgb(0, 0, 0);
+            }
+            h1 {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace; 
+            font-size: 4.5em;
+            background-color: rgb(226, 157, 8);
+            color: rgb(0, 0, 0);
+            text-transform: uppercase;
+            text-shadow: 2.5px 2.4px rgb(255, 0, 0);
+            padding: 1px;
+
+            }
+
+            p#desc {
+
+                font-family: Tahoma;
+                font-size: 18px;
+                color: white;
+                text-align: center;
+
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <h1>THE SOLAR SYSTEM</h1>
+        <div align = "center">
+        <img src="../img/SOLAR SYSTEM.jpg" alt="planets" usemap = "#solarSystem">
+            <map name="solarSystem">
+
+                <area shape="rect" coords="21,277,209,464" href="JUPITER_SINGCO.html" onMouseOver = "writeText('THIS IS JUPITER. A GAS GIANT AND THE LARGEST PLANET IN THE SOLAR SYSTEM. FAMOUS FOR ITS GREAD RED SPOT.');" onMouseOut = "dissolveText('hehe')">
+
+                <area shape="circle" coords="613,144,107" href="SUN_SINGCO.html" onMouseOver = "writeText('THIS IS OUR SUN. THE LARGEST OBJECT IN OUR SOLAR SYSTEM.');" onMouseOut = "dissolveText('hehe')">
+
+                <area shape="poly" coords="31,220,64,170,94,143,96,110,114,80,139,61,176,51,191,49,216,53,251,35,278,29,302,20,309,31,304,48,290,62,243,105,243,137,221,173,171,192,132,185,70,214,35,225,"  href="SATURN_SINGCO.html" onMouseOver = "writeText('THIS IS SATURN. FAMOUS FOR ITS RINGS.');" onMouseOut = "dissolveText('hehe')">
+
+            </map>
+        </div>
+        <p id = desc></p>
+    </body>
+</html>
