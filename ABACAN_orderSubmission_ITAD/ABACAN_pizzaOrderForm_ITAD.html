@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="utf-8">
+	<title>Order Form</title>
+  <style type="text/css">
+
+    body{
+      margin: 0%;
+      background-color: rgb(240, 65, 196);
+    }
+
+    label.contact{
+      padding-left: 310px;
+    }
+
+    textarea{
+      resize:none; 
+      width: 800px;
+      height: 200px;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    
+    div.space{
+      margin-bottom: 10px;
+      margin-top: 30px;
+      margin-right:300px;
+    }
+
+    div.form{
+      background-color: aquamarine;
+      padding-bottom: 100px;
+      border: 2px solid black;
+    }
+
+    fieldset{
+      background-color: red;
+      border: 2px solid;
+      margin-left: 30px;
+      margin-right: 30px;
+      margin-top: 30px;
+    }
+
+    legend{
+      background-color: black;
+      color: white;
+      border: 1px solid white;
+    }
+    
+    input.right{
+      float: right;
+      width: 550px;
+      margin-right: 10px;
+    }
+
+    input.left{
+      margin-left: 60px;
+    }
+
+    img.leftimg{
+      margin-left: 20px;
+    }
+
+    hr{
+      margin-top: 20px;
+      height: 2px;
+      background-color: black;
+    }
+
+    div.lists{
+      width: 20%;
+      height: 100%;
+      margin-left: 30px;
+      border: 2px solid black;
+      display: block;
+      float: left;
+      text-align: right;
+    }
+
+    form.order{
+      width: 50%;
+      display: block;
+      float: right;
+    }
+
+    a.items{
+      font-family: Consolas, 'sans-serif';
+      font-weight: bolder;
+      font-size: 23px;
+      padding: 10px 10px 10px 100px;
+      color: white;
+      line-height: 50px;
+      text-decoration: none;
+    }
+    th.list{
+      text-align: right;
+      background-color: olivedrab;
+      text-transform: uppercase;
+    }
+
+    table{
+      margin-left: 10px;
+      display: block;
+    }
+
+    label{
+      font-size: 20px;
+      font-family: Consolas, 'sans-serif';
+    }
+    h2.food{
+      font-family: Consolas, 'sans-serif';
+      color: white;
+      margin-left: 20px;
+      text-shadow: 10px 10px 10px black;
+      text-transform: uppercase;
+      font-style: italic;
+    }
+    h3.left{
+      margin-left: 20px;
+      font-size: 26px;
+    }
+    div.form2{
+      display: block;
+      float: right;
+      background-color: rgb(208, 101, 101);
+      margin-top: 30px;
+      margin-right: 70px;
+      width: 78%;
+      border: 2px solid black;
+    }
+
+    legend{
+      font-size: 27px
+    }
+
+    div.foodicon{ 
+      padding: 200px;
+      background-color: blue;
+    }
+
+    input.last{
+      border: 2px solid black;
+      font-size: 1em;
+    }
+    
+    .items:link{color: white;}
+    .items:hover{color: black;}
+    .items:active{color: red;}
+
+    .last:hover{color: blue;}
+  </style>
+</head>
+
+<body style="background-image:url(ABACAN_IMAGES_ITAD/subtle-prism-triangle-pattern.jpg);">
+	<link rel="stylesheet" type="text/css">
+	<!--Abacan, Rafael Lemuel M-->
+  <form action="https://lemuelitad.github.io/submit.html" method="get">
+  <fieldset>
+    <legend>Customer Information</legend>
+  
+    <div class="form">
+      
+      <br><br>
+
+      <div class="space">
+        <label class="contact" for="fullname">Name: </label>
+        <input class="right" type="text" name="fullname" id="fullname" placeholder="Fullname">
+      </div>
+
+      <div class="space">
+        <label class="contact" for="address">Complete Address: </label>
+        <input class="right" type="text" name="address" id="address" placeholder="Address">
+      </div>
+      
+      <div class="space">
+        <label class="contact" for="contact">Contact Number: </label>
+        <input class="right" type="number" name="contact" id="contact" placeholder="Contact number">
+      </div>
+
+      <div class="space">
+        <label class="contact" for="emaddress">Email Address: </label>
+        <input class="right" type="email" name="emaddress" id="emaddress" placeholder="Email">
+      </div>
+      
+      <br><br><br><br>
+
+      <label for="description" style="margin-top: 100px; margin-bottom: 20px; margin-left: 500px;">Description of how to get to the Place: </label>
+      <textarea rows = "5" cols = "50" name = "description" placeholder="Description"></textarea>
+
+      
+    </div>
+  </fieldset> 
+
+  <fieldset>
+    <legend>Order Form</legend>
+    <div class="form" style="padding-bottom: 100px;">
+      <div class="form2">
+        <h2 class="food" id="burgers">Burgers</h2>
+
+        <hr noshade>
+
+        <h3 class="left">Patty</h3>
+
+        <img src="ABACAN_IMAGES_ITAD/burger1.png" alt="patty" style="height: 70px; width: 123px; margin-left: 60px;">
+        <img src="ABACAN_IMAGES_ITAD/burger.png" alt="double patty" style="height: 100px; width: 150px; margin-left: 100px;">
+          
+        <div>
+          <div>
+            <input type="radio" name="patty" id="s" value="s" style="margin-left: 3em;">  
+            <label for="s">Single Patty</label>
+
+            <input type="radio" name="patty" id="dp" value="dp" style="margin-left: 100px; margin-top: 20px;">
+            <label for="dp">Double Patty</label>
+             
+          </div>
+
+          <br><br>
+          <h3 class="left">Add ons:</h3>
+
+          <section>
+
+            <img class="leftimg" src="ABACAN_IMAGES_ITAD/cheese.png" alt="cheese" style="width: 150px; height: 100px;">
+            <img class="leftimg" src="ABACAN_IMAGES_ITAD/coleslaw.png" alt="coleslaw" style="width: 150px; height: 100px;">  
+            <img class="leftimg" src="ABACAN_IMAGES_ITAD/tomato.png" alt="tomato" style="width: 150px; height: 100px;">
+            <img class="leftimg" src="ABACAN_IMAGES_ITAD/onion.png" alt="onion" style="width: 150px; height: 100px;">
+            <img class="leftimg" src="ABACAN_IMAGES_ITAD/cucumber.png" alt="cucumber" style="width: 150px; height: 100px;">
+            <img class="leftimg" src="ABACAN_IMAGES_ITAD/bacon.png" alt="bacon" style="width: 150px; height: 100px;">
+
+
+            <br> <br>
+
+            <input class="left" type="checkbox" name="cheese" id="cheese">
+            <label for="cheese">Cheese</label>
+
+            <input type="checkbox" name="coleslaw" id="coleslaw" style="margin-left: 60px;">
+            <label for="coleslaw">Coleslaw</label> 
+
+            <input type="checkbox" name="tomato" id="tomato" style="margin-left: 80px;">
+            <label for="tomato">Tomato</label>
+
+            <input type="checkbox" name="onion" id="onion" style="margin-left: 90px;">
+            <label for="onion">Onion</label> 
+
+            <input type="checkbox" name="cucumber" id="cucumber" style="margin-left: 75px;">
+            <label for="cucumber">Cucumber</label>
+
+            <input type="checkbox" name="bacon" id="bacon" style="margin-left: 80px;">
+            <label for="bacon">Bacon</label>
+
+          </section>
+
+          <br><br>
+          <h3 class="left">Buns</h3>
+
+          <img src="ABACAN_IMAGES_ITAD/whitebread.png" alt="white bread" style="width: 150px; height: 100px; margin-left: 20px;">
+          <img src="ABACAN_IMAGES_ITAD/honeyoat.png" alt="honey oat" style="width: 150px; height: 100px; margin-left: 80px;">
+          <img src="ABACAN_IMAGES_ITAD/sugarfree.png" alt="sugar free" style="width: 150px; height: 100px; margin-left: 80px;"">
+
+          <br><br>
+
+          <input type="radio" name="bread" id="wb" style="margin-left: 30px;">
+          <label for="wb">White Bread</label> 
+
+          <input type="radio" name="bread" id="ho" style="margin-left: 80px;">
+          <label for="ho">Honey Oat</label>
+
+          <input type="radio" name="bread" id="sf" style="margin-left: 120px; margin-bottom: 100px;">
+          <label for="sf">Sugar Free</label>
+
+          <div style="margin-bottom: 100px;">
+            <label for="b1" style="margin-left: 20px;">Quantity: </label>
+            <input type="number" name="bq" id="bq" min="0" value="0">
+          </div>
+ 
+            
+            </div>
+          </div>
+
+          <table style="margin-top: 30px;">
+            <tr>
+              <th class="list"><a class="items" href="#burgers">Burgers</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#pasta">Pasta</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#fries">Fries</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#drinks">Drinks</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#out">Check-out</a></th>
+            </tr>
+          </table>
+
+          <div class="form2" style="padding-bottom: 50px;">
+            <h2 class="food" id="pasta">PASTA</h2>
+            <hr>
+
+            <br><br>
+            <h3 class="left">Sauce</h3>
+            
+            <img class="leftimg" src="ABACAN_IMAGES_ITAD/carbonara.png" alt="carbonara" style="height: 140px; width: 150px;">
+            <img class="leftimg" src="ABACAN_IMAGES_ITAD/pesto.png" alt="pesto" style="height: 140px; width: 160px; margin-left: 70px; margin-right: 70px;">
+            <img class="leftimg" src="ABACAN_IMAGES_ITAD/Spaghetti.png" alt="Spaghetti" style="height: 140px; width: 150px;">
+            
+            <div style="margin-top: 10px;">
+              <input type="radio" name="sauce" id="c" value="c" style="margin-left: 2em;">  
+              <label for="c">Carbonara</label>
+
+              <input type="radio" name="sauce" id="p" value="p" style="margin-left: 130px; margin-top: 20px;">
+              <label for="p">Pesto</label>
+            
+              <input type="radio" name="sauce" id="sp" value="sp" style="margin-left: 160px; margin-top: 20px;">
+              <label for="sp">Spaghetti</label>
+            
+            </div>
+
+            <br><br>
+
+
+            <section>
+            <h3 class="left">Add Extra:</h3>
+          
+
+            <img src="ABACAN_IMAGES_ITAD/cheese.png" alt="cheese" style="height: 100px; width: 200px; margin-left: 20px;">
+            <img src="ABACAN_IMAGES_ITAD/sauce.png" alt="sauce" style="height: 100px; width: 200px;">
+            <img src="ABACAN_IMAGES_ITAD/mballs.png" alt="meat balls" style="height: 100px; width: 200px;">
+          
+            
+            <div>
+              <input class="left" type="checkbox" name="chese" id="chese" style="margin-top: 30px;">
+              <label for="chese">Cheese</label>
+
+              <input type="checkbox" name="Sauce" id="Sauce" style="margin-left: 120px;">
+              <label for="Sauce">Sauce</label> 
+
+              <input type="checkbox" name="mball" id="mball" style="margin-left: 130px;">
+              <label for="mball">Meatball</label>
+              </div>
+            
+              <div style="margin-bottom: 50px; margin-top: 80px;">
+                <label for="b1" style="margin-left: 20px;">Quantity: </label>
+                <input type="number" name="bq" id="bq" min="0" value="0">
+              </div>
+
+          </section>
+
+          </div>
+
+          <table style="margin-top: 807px;">
+            <tr>
+              <th class="list"><a class="items" href="#burgers">Burgers</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#pasta">Pasta</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#fries">Fries</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#drinks">Drinks</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#out">Check-out</a></th>
+            </tr>
+          </table>
+
+
+          <div class="form2" style="padding-bottom: 50px;">
+            <h2 class="food" id="fries">FRIES</h2>
+            <hr>
+
+            <h3 class="left">Size</h3>
+            <div style="margin-top: 90px; display: block; float: left; margin-left: 20px; margin-right: 100px;">
+              <label for="size">Your Choice:</label>
+                <select name="size" id="size">
+                  <option value="none" selected>Select an Option</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                </select>
+            </div>
+
+            <img src="ABACAN_IMAGES_ITAD/friesS.png" alt="small fries" style="height: 100px; width: 80px; margin-left: 20px">
+            <img src="ABACAN_IMAGES_ITAD/friesM.png" alt="medium fries" style="height: 140px; width: 120px; margin-left: 50px">
+            <img src="ABACAN_IMAGES_ITAD/friesL.png" alt="large fries" style="height: 180px; width: 160px; margin-left: 50px">
+          
+            <h3 class="left">Flavors:</h3>
+
+            <div style="margin-top: 40px; display: block; float: left; margin-right: 100px; margin-left: 20px;">
+              <label for="flavor">Your Choice:</label>
+                <select name="flavor" id="flavor">
+                  <option value="none" selected >Select an Option</option>
+                  <option value="bbq">Barbeque</option>
+                  <option value="cheese">Cheese</option>
+                  <option value="sc">Sour Cream</option>
+                </select>
+            </div>
+
+            <img src="ABACAN_IMAGES_ITAD/bbq.png" alt="bbq powder" style="height: 100px; width: 200px;">
+            <img src="ABACAN_IMAGES_ITAD/cheesepowder.png" alt="cheese powder" style="height: 100px; width: 200px;">
+            <img src="ABACAN_IMAGES_ITAD/sourcream.png" alt="sour cream powder" style="height: 100px; width: 200px;">
+          
+            <div style="margin-bottom: 50px; margin-top: 80px;">
+              <label for="fq" style="margin-left: 20px;">Quantity: </label>
+              <input type="number" name="fq" id="bfq" min="0" value="0">
+            </div>
+
+          </div>
+          
+          <table style="margin-top: 630px;">
+            <tr>
+              <th class="list"><a class="items" href="#burgers">Burgers</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#pasta">Pasta</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#fries">Fries</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#drinks">Drinks</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#out">Check-out</a></th>
+            </tr>
+          </table>
+
+          <div class="form2" style="padding-bottom: 50px;">
+            <h2 class="food" id="drinks">DRINKS</h2>
+            <hr>
+
+            <h3 class="left">Kinds of Drinks:</h3>
+            
+            <div style="margin-top: 90px; display: block; float: left; margin-right: 100px;">
+              <label for="size" style="margin-left: 20px;">Your Choice:</label>
+                <select name="size" id="size">
+                  <option value="none" selected>Select an Option</option>
+                  <option value="Cola">Cola</option>
+                  <option value="Iced Tea">Iced Tea</option>
+                  <option value="Float">Float</option>
+                  <option value="Coffee">Coffee</option>
+                </select>
+            </div>
+
+            <img src="ABACAN_IMAGES_ITAD/coda.png" alt="cola" style="height: 200px; width: 120px;">
+            <img src="ABACAN_IMAGES_ITAD/icedtea.png" alt="ice tea" style="height: 140px; width: 100px; margin-left: 40px;">
+            <img src="ABACAN_IMAGES_ITAD/float.png" alt="float" style="height: 180px; width: 90px; margin-left: 40px;">
+            <img src="ABACAN_IMAGES_ITAD/coffee.png" alt="Coffee" style="height: 110px; width: 120px; margin-left: 40px;">
+            <h3 class="left">Sizes:</h3>
+
+
+            <div style="margin-top: 20px; display: block; float: left; margin-right: 100px;">
+              <label style="margin-left: 20px;">Your Choice:</label>
+              <select name="size" id="size">
+                <option value="none" selected>Select an Option</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+              </select>
+            </div>
+
+            <div style="margin-bottom: 50px; margin-top: 200px;">
+              <label for="dq" style="margin-left: 20px;">Quantity: </label>
+              <input type="number" name="dq" id="dq" min="0" value="0">
+            </div>
+
+          </div>
+
+          <table style="margin-top: 495px;">
+            <tr>
+              <th class="list"><a class="items" href="#burgers">Burgers</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#pasta">Pasta</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#fries">Fries</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#drinks">Drinks</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#out">Check-out</a></th>
+            </tr>
+          </table>
+          
+          <div class="form2" style="padding-bottom: 50px;">
+            <h2 class="food" id="out">Check out</h2>
+            <hr>
+
+            <h3 class="left">Mode of getting</h3>
+            
+            <div style="margin-top: 30px;">
+
+              <img src="ABACAN_IMAGES_ITAD/deliver.png" alt="food delivery" style="height: 110px; width: 140px; margin-left: 50px;">
+              <img src="ABACAN_IMAGES_ITAD/blue car.png" alt="Pick up" style="height: 110px; width: 290px; margin-left: 80px;">
+
+              <br><br>
+
+              <input type="radio" name="delivery" id="delivery" value="delivery" style="margin-left: 70px;">  
+              <label for="delivery">Delivery</label>
+
+              <input type="radio" name="delivery" id="pickup" value="pickup" style="margin-left: 185px; margin-top: 20px;">
+              <label for="pickup">Pick-up</label>
+            
+            </div>
+
+            <hr style="margin-top: 100px;">
+
+            <div class="space">
+              <label class="contact" for="description" style="margin-left: 180px;">Feedbacks: </label>
+              <textarea rows = "4" cols = "60" name = "description" placeholder="Description" style="margin-left: 150px;"></textarea>
+              
+            </div>
+
+          </div>
+
+          <table style="margin-top: 503px;">
+            <tr>
+              <th class="list"><a class="items" href="#burgers">Burgers</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#pasta">Pasta</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#fries">Fries</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#drinks">Drinks</a></th>
+            </tr>
+            <tr>
+              <th class="list"><a class="items" href="#out">Check-out</a></th>
+            </tr>
+          </table>
+
+            <div style="margin-top: 500px;">
+              <input class="last" type="submit" id="submit" value="Submit" style="float: right; width: 80px; height: 50px; margin-right: 20px; margin-left: 100px;">
+              <input class="last" type="reset" id="Clear" value="Clear" style="float: right; width: 80px; height: 50px;">
+            </div>  
+          </div>
+        </div>
+
+      </fieldset>  
+    </form>
+  </body>
+</html>
