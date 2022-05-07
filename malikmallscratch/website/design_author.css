@@ -1,0 +1,183 @@
+body {
+
+    margin: 0px;
+    overflow: hidden;
+    background-color: #cb6ce6;
+
+}
+
+#bg {
+
+    background-color: white;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img:hover{
+    opacity: 1;
+}
+
+
+div#tabs {
+
+    background-color: violet;
+    width: 125px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 30px;
+    overflow: hidden;
+    float: left;
+    font-family: 'Trebuchet MS';
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+div#tabsRight2 {
+
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+div#tabsRight {
+
+    float: right;
+    margin-right: 20px;
+    margin-top: 7px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+div#main {
+
+    width: 750px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    margin-top: 80px;
+
+}
+
+img#shop {
+
+    margin-left: 9px;
+    margin-top: 9px;
+    width: 100px;
+    height: 40px;
+
+}
+
+img#shoppingcart {
+
+    float: right;
+
+}
+
+img#arrow {
+
+    float: left;
+    margin-bottom: 7.5px;
+    margin-right: 10px;
+    margin-left: 20px;
+
+}
+
+img#account {
+
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-right: 20px;
+}
+
+button {
+
+    width: 350px;
+    height: 35px;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    color: white;
+    background-color: violet;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-size: 1em;
+
+}
+
+a#forgot:link, a#forgot:active, a#forgot:hover, a#forgot:visited {
+
+    margin-left: 150px;
+    margin-right: 135px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    color: black;
+    text-decoration: none;       
+
+}
+
+a#signup:link, a#signup:active, a#signup:hover, a#signup:visited {
+
+    margin-left: 470px;
+    margin-right: 135px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    color: black;
+    text-decoration-thickness: 2px;
+
+}
+
+div.box1{
+    padding: 10px 10px 1000px 10px;
+    margin-right: 42%;
+    border-style: solid;
+    background-color: rgb(138, 138, 138);;
+    text-align: justify;
+    line-height: 40px;
+}
+
+h1{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 40px;
+    color: white;
+    font-style: italic;
+}
+
+a.web{
+    color: white;
+}
+
+img#shoppingcart {
+
+    float: right;
+    margin-right: 30px;
+
+}

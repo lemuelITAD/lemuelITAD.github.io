@@ -1,0 +1,103 @@
+body{
+    background-color: beige;
+  }
+
+  a {
+    color: white;
+    font-size: 130%;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+  h1{
+    font-size: 54px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(255, 136, 0);
+    font-family: 'Odibee Sans', cursive;
+    margin-bottom: 0;
+  }
+  
+  #css {
+    color: rgb(3, 3, 3);
+    font-family: 'Odibee Sans', cursive;
+  }
+  
+  .carousel-wrapper {
+    height: 500px;
+    position: relative;
+    width: 600px;
+    display: block;
+    margin: 50px auto ;
+    border: 2px solid black;
+  }
+  
+  .carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  .arrow{
+    border: solid rgb(0, 0, 0);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+  }
+  .arrow-prev {
+    left: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(135deg);
+  
+  }
+  .arrow-next {
+    right: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+  }
+  
+  [id^= "item"] {
+    display: none;
+  }
+  .item-1 {
+    z-index: 2;
+    opacity: 1;
+    background: url('media/FT1.jpeg');
+    background-size: cover;
+  }
+  
+  .item-2 {
+    background: url('media/FT2.jfif');
+    background-size: cover;
+  }
+
+  .item-3 {
+    background: url('media/FT3.jfif');
+    background-size: cover;
+  }
+
+
+  *:target ~ .item-1{
+    opacity: 0;
+  }
+  #item-1:target ~ .item-1 {
+    opacity: 1;
+  
+  }
+  #item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+    z-index: 3;
+    opacity: 1;
+  } 
+
+  #item-3:target ~ .item-3, #item-3:target ~ .item-3 {
+    z-index: 3;
+    opacity: 1;
+  } 

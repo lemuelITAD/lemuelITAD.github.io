@@ -1,0 +1,50 @@
+<body>
+        <link rel="stylesheet" type="text/css" href="design.css"/>
+        
+        <div id = "bg">
+            <img  id = "shop" src = "media/shop.gif" alt="">
+
+            <hr width = "100%" size = "2" color = "black" NOSHADE>
+
+        
+
+            <img id="arrow" src="leftarrow.png" alt="">
+
+            <div id = "tabs">
+              CLOTHES
+            </div>
+
+            <div id = "tabs">
+                GADGETS
+            </div>
+              
+            <div id = "tabs">
+                HARDWARE
+            </div>
+              
+            <div id = "tabs">
+                APPLIANCES
+            </div>
+              
+            <div id = "tabs">
+                SPORTS WEAR
+            </div>
+              
+            <div id = "tabs">
+                KIDS' TOYS
+            </div>
+
+              <img src="rightarrow.png" alt="">
+
+              <img id = "shoppingcart" src="shoppingcart.png" alt="">
+
+            <div id = "tabsRight">
+                HOME
+            </div>
+              
+            <div id = "tabsRight">
+                ABOUT US
+            </div>
+
+        <hr width = "100%" size = "2" color = "black" NOSHADE>
+        </div>
