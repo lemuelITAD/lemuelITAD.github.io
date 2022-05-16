@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>LOG-IN PAGE</title>
+
+        <style>
+
+            body {
+
+                margin: 0px;
+                overflow: hidden;
+
+            }
+
+            #bg {
+
+                background-color: blue;
+
+            }
+
+            div#tabs {
+
+                background-color: violet;
+                width: 125px;
+                padding: 5px;
+                margin-left: 10px;
+                margin-top: 2px;
+                text-align: center;
+                border-radius: 30px;
+                overflow: hidden;
+                float: left;
+                font-family: 'Trebuchet MS';
+                font-style: italic;
+                font-weight: bold;
+
+            }
+
+            div#tabsRight {
+
+                float: right;
+                margin-right: 20px;
+                margin-top: 7px;
+                font-family: 'Trebuchet MS';
+                font-weight: bold;
+                font-style: italic;
+                text-decoration: underline;
+                text-decoration-thickness: 2px;
+                border-left: 2px solid gray;
+                border-right: 2px solid gray;
+                padding-left: 5px;
+                padding-right: 5px;
+
+            }
+
+            img {
+
+                float: left;
+                margin-bottom: 7.5px;
+                margin-right: 10px;
+                margin-left: 20px;
+
+            }
+
+            img#buy {
+
+                margin: 2px;
+
+            }
+
+            img#shoppingcart {
+
+                float: right;
+
+            }
+
+            div#main {
+
+                width: 750px;
+                height: 500px;
+                background-color: white;
+                margin: auto;
+                margin-top: 80px;
+
+            }
+
+            p#login {
+
+                text-align: center;
+                font-family: 'Trebuchet MS';
+                font-size: 3em;
+                font-weight: bold;
+                font-style: italic;
+                padding-top: 75px;
+
+            }
+
+            input {
+
+                width: 350px;
+                height: 25px;
+                margin-left: 200px;
+                margin-bottom: 20px;
+                color: black;
+                font-family: 'Trebuchet MS';
+                font-size: 1em;
+                border: 1px solid black;
+
+            }
+
+            ::placeholder {
+
+                color: black;
+                font-weight: bold;
+                padding-left: 5px;
+
+            }
+
+            button {
+
+                width: 350px;
+                height: 35px;
+                margin-left: 200px;
+                margin-bottom: 40px;
+                color: white;
+                background-color: violet;
+                border-radius: 10px;
+                border: none;
+                font-family: 'Trebuchet MS';
+                font-weight: bold;
+                font-size: 1em;
+
+            }
+
+            a#forgot:link, a#forgot:active, a#forgot:hover, a#forgot:visited {
+
+                margin-left: 150px;
+                margin-right: 135px;
+                font-family: 'Trebuchet MS';
+                font-weight: bold;
+                color: black;
+                text-decoration: none;       
+
+            }
+
+            a#signup:link, a#signup:active, a#signup:hover, a#signup:visited {
+
+                margin-left: 470px;
+                margin-right: 135px;
+                font-family: 'Trebuchet MS';
+                font-weight: bold;
+                color: black;
+                text-decoration-thickness: 2px;
+
+            }
+
+            p#account {
+
+                display: inline;
+                font-family: 'Trebuchet MS';
+                font-weight: bold;
+
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <link rel="stylesheet" type="text/css" href="../css/design.css"/>
+        
+        <div id = "bg">
+            <a href="../../index.html"><img  id = "shop" src = "../../media/shop.gif" alt=""></a>
+
+
+            <a href="accounts.html"><img  id = "account" src = "../../media/account.jpg" alt=""></a>
+            
+            <div id = "tabsRight2">
+                <a href="sign up.html">SIGN-UP</a>
+            </div>
+
+            <div id = "tabsRight2">
+                <a href="log_in_final.html">LOG-IN</a>
+            </div>
+
+            <div id = "tabsRight2">
+                <a href="gallery.html">GALLERY</a>
+            </div>
+
+            <div id = "tabsRight2">
+                <a href="contact us.html">CONTACT-US</a>
+            </div>
+            
+            <hr width = "100%" size = "2" color = "black" NOSHADE>
+
+        
+
+            
+
+            <div id = "tabs">
+                <a href="MainPageClothes.html">CLOTHES</a>
+            </div>
+
+            <div id = "tabs">
+                <a href="Gadgets.html">GADGETS</a>
+            </div>
+              
+            <div id = "tabs">
+                <a href="Hardware.html">HARDWARE</a>
+            </div>
+              
+            <div id = "tabs">
+                <a href="Appliances.html">APPLIANCES</a>
+            </div>
+              
+            <div id = "tabs">
+                <a href="sports.html">SPORTS</a>
+            </div>
+              
+            <div id = "tabs">
+                <a href="hobbies.html">HOBBIES</a>
+            </div>
+            <div id = "tabs">
+                <a href="Home.html">HOME</a>
+            </div>
+
+              
+
+              <img id = "shoppingcart" src="../../media/shoppingcart.png" alt="">
+
+            <div id = "tabsRight">
+                <a href="../../index.html">HOME</a>
+            </div>
+              
+            <div id = "tabsRight">
+                <a href="about.html">ABOUT US</a>
+            </div>
+
+            <div id = "tabsRight">
+                <a href="authors.html">AUTHOR</a>
+            </div>
+
+        <hr width = "100%" size = "2" color = "black" NOSHADE>
+        </div>
+
+        
+        
+        
+        <div id = "main">
+            
+            <p id = "login">LOG IN</p>
+
+            <form action=" " method="GET" enctype="multipart/form-data">
+
+                <div>
+                    <input type="email" name="email" id="email" placeholder = "EMAIL: " required>
+                </div>
+
+                <div>
+                    <input type="password" name="password" id="password" placeholder = "PASSWORD:" required>
+                </div>
+
+                <button type="submit">LOG IN</button>
+
+            </form>
+
+            <a id = "forgot" href="https://www.youtube.com/">Forgot Password?</a>
+            <p id = "account">Don't have an account?</p>
+            <br><br>
+            <a id = "signup" href="sign up.html">SIGN UP</a>
+
+        </div>
+
+    </body>
+
+</html>
