@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>ORDER</title>
+
+        <style>
+
+            body {
+
+                margin: 0px;
+                overflow: hidden;
+                background-color: violet;
+
+            }
+
+
+            p#order {
+
+                margin-left: 670px;
+                margin-top: 50px;
+                font-family: 'Trebuchet MS';
+                font-style: italic;
+                font-weight: bold;
+                font-size: 4.5em;
+                color: white;
+                display: inline-block;
+
+            }
+
+            img#shirt {
+
+                display: block;
+                position: absolute;
+                right: 0px;
+                bottom: 10px;
+                width: 30%;
+                height: 55%;
+                margin: 0px;
+                border: 5px solid black;
+
+
+            }
+
+            div#product{
+    
+                float: left;
+                position: absolute;
+                left: 0px;
+                bottom:10px;
+                width: 55%;
+                height: 65%;
+                border: 5px solid black;
+                background-color: gray;
+                overflow: auto;
+                padding-bottom: 30px;
+
+            }
+
+            div#customerDetails {
+
+              float: right;
+              margin-right: 10%;
+              
+
+            }
+
+            div#productDetails {
+
+              float: left;
+              margin-left: 10%;
+
+            }
+
+            p#details {
+
+              text-align: center;
+              text-decoration: underline;
+              font-family: 'Trebuchet MS';
+              font-weight: bold;
+              font-style: italic;
+              font-size: 2em;
+              color: white;
+
+            }
+
+            p#detailsdet {
+
+              text-align: center;
+              font-family: 'Trebuchet MS';
+              font-weight: bold;
+              font-style: italic;
+              font-size: 1.5em;
+              color: white;
+
+            }
+
+            label.customer {
+
+              font-family: 'Trebuchet MS';
+              font-size: 1.25em;
+              font-weight: bold;
+              padding-left: 30px;
+              color: white;
+
+            }
+
+            input.customer {
+
+              background-color: black;
+              color: white;
+              border: 3px solid white;
+              border-radius: 10px;
+              margin-bottom: 20px;
+              width: 200px;
+              height: 30px;
+              font-family: 'Trebuchet MS';
+              font-size: 1em;
+              font-weight: bold;
+              text-align: center;
+
+            }
+
+            input.customer:focus {
+
+              background-color: white;
+              color: black;
+              font-weight: normal;
+
+            }
+
+            input.customer::placeholder {
+
+              color: white;
+              text-align: center;
+              font-weight: normal;
+              font-size: 0.90em;
+
+            }
+
+            label.order {
+
+              font-family: 'Trebuchet MS';
+              font-weight: bold;
+              font-style: italic;
+              font-size: 1.25em;
+              color: white;
+
+            }
+
+            input.order {
+
+              margin-left: 20px;
+
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+      <link rel="stylesheet" type="text/css" href="css/design.css"/>
+        
+      <div id = "bg">
+        <a href="INDEX.HTML"><img  id = "shop" src = "../media/shop.gif" alt=""></a>
+
+
+        <a href="accounts.html"><img  id = "account" src = "../../media/account.jpg" alt=""></a>
+        
+        <div id = "tabsRight2">
+            <a href="sign up.html">SIGN-UP</a>
+        </div>
+
+        <div id = "tabsRight2">
+            <a href="log_in_final.html">LOG-IN</a>
+        </div>
+
+        <div id = "tabsRight2">
+            <a href="gallery.html">GALLERY</a>
+        </div>
+
+        <div id = "tabsRight2">
+            <a href="contact us.html">CONTACT-US</a>
+        </div>
+
+        <hr width = "100%" size = "2" color = "black" NOSHADE>
+
+    
+
+        
+
+        <div id = "tabs">
+            <a href="MainPageClothes.html">CLOTHES</a>
+        </div>
+
+        <div id = "tabs">
+            <a href="Gadgets.html">GADGETS</a>
+        </div>
+          
+        <div id = "tabs">
+            <a href="Hardware.html">HARDWARE</a>
+        </div>
+          
+        <div id = "tabs">
+            <a href="Appliances.html">APPLIANCES</a>
+        </div>
+          
+        <div id = "tabs">
+            <a href="sports.html">SPORTS</a>
+        </div>
+          
+        <div id = "tabs">
+            <a href="hobbies.html">HOBBIES</a>
+        </div>
+        <div id = "tabs">
+            <a href="Home.html">HOME</a>
+        </div>
+
+          
+
+          <img id = "shoppingcart" src="../../../../media/shoppingcart.png" alt="">
+
+        <div id = "tabsRight">
+            <a href="INDEX.HTML">HOME</a>
+        </div>
+          
+        <div id = "tabsRight">
+            <a href="about.html">ABOUT US</a>
+        </div>
+
+        <div id = "tabsRight">
+            <a href="authors.html">AUTHOR</a>
+        </div>
+
+    <hr width = "100%" size = "2" color = "black" NOSHADE>
+    </div>
+
+        <p id = "order">ORDER</p>
+
+        <div id = "product">
+
+            <div id = "productDetails">
+
+              <p id = "details">Product Details</p>
+
+              <p id="detailsdet">Product Name</p>
+              <p id="detailsdet">Product Price</p>
+            </div>
+
+            <div id = "customerDetails">
+
+              <p id = "details">Customer Details</p>
+
+              <form action = " " method = "GET" enctype = "multipart/form-data">
+
+                <div>
+                    <label class = "customer" for = "name">Name:</label>
+                    <input class = "customer" type = "text" name = "name" id = "name" placeholder = "Type your full name..." required>
+                </div>
+
+                <div>
+                    <label class = "customer" for = "name">Address:</label>
+                    <input class = "customer" type = "text" name = "address" id = "address" placeholder = "Type your address..." required>
+                </div>
+                
+                <div>
+                    <label class = "customer" for = "name">Contact Number:</label>
+                    <input class = "customer" type="text" name = "contact" id = "contact" placeholder = "Type your contact number..." required>
+                </div>
+
+                <p id = "details">Payment Method</p>
+
+                <div>
+                    <input class = "order" type = "radio" name = "paymentMethod" id = "cod" value = "cod">
+                    <label class = "order" for = "cod">Cash On Delivery</label>
+                </div>
+
+                <div>
+                    <input class = "order" type = "radio" name = "paymentMethod" id = "gcash" value = "gcash">
+                    <label class = "order" for = "gcash">GCash</label>
+                </div>
+
+                <div>
+                  <input class = "order" type = "radio" name = "paymentMethod" id = "paymaya" value = "paymaya">
+                  <label class = "order" for = "paymaya">PayMaya</label>
+              </div>
+
+              <p>Palagyan ng submit button sa gawing kanan dito =====></p>
+
+              </form>
+
+            </div>
+
+        </div>
+
+        <img id = "shirt" src="../media/tshirt.jpg" alt="">
+
+    </body>
+
+</html>

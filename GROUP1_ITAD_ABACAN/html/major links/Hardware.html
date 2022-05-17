@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+            body{
+                background-color: #cb6ce6;
+            }
+
+            h2{
+                margin:100px 0px 0px 525px;
+                color:white;
+                font-family: Tahoma, Geneva, Verdana, sans-serif;
+                font-size:4em;
+            }
+
+            img:hover{
+                opacity: 1;
+            }
+
+            .hardware{
+                margin: 20px 0px 0px 120px;
+                opacity: 0.58;
+                border-radius: 30px;
+                border-style:ridge;
+                border-color: black;
+                height: 180px;
+                width:260px;
+            }
+            
+
+            #css {
+                color: rgb(3, 3, 3);
+                font-family: 'Odibee Sans', cursive;
+            }
+            
+            .carousel-wrapper {
+                height: 500px;
+                position: relative;
+                width: 500px;
+                display: block;
+                float: right;
+                margin: 50px 100px ;
+                border: 2px solid black;
+            }
+            
+            .carousel-item {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                padding: 25px 50px;
+                opacity: 0;
+                transition: all 0.5s ease-in-out;
+            }
+            .arrow{
+                border: solid rgb(0, 0, 0);
+                border-width: 0 3px 3px 0;
+                display: inline-block;
+                padding: 12px;
+            }
+            .arrow-prev {
+                left: 30px;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%) rotate(135deg);
+            
+            }
+            .arrow-next {
+                right: 30px;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%) rotate(-45deg);
+            }
+            
+            [id^= "item"] {
+                display: none;
+            }
+            .item-1 {
+                z-index: 2;
+                opacity: 1;
+                background: url('../../media/StanleyPlaner.png');
+                background-size: cover;
+            }
+            
+            .item-2 {
+                background: url('../../media/BoschAngleGrinder.png');
+                background-size: cover;
+            }
+
+            .item-3 {
+                background: url('../../media/totalShovel.png');
+                background-size: cover;
+            }
+
+
+            *:target ~ .item-1{
+                opacity: 0;
+            }
+            #item-1:target ~ .item-1 {
+                opacity: 1;
+            
+            }
+            #item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+                z-index: 3;
+                opacity: 1;
+            } 
+
+            #item-3:target ~ .item-3, #item-3:target ~ .item-3 {
+                z-index: 3;
+                opacity: 1;
+            } 
+
+            p.ft{
+                color:white;
+                font-family: Tahoma, Geneva, Verdana, sans-serif;
+                font-size:4em;
+                text-align: center;
+            }
+        </style>
+        <body>
+            <link rel="stylesheet" type="text/css" href="../css/design.css"/>
+        
+        <div id = "bg">
+            <a href="../../INDEX.HTML"><img  id = "shop" src = "../../media/shop.gif" alt=""></a>
+
+
+            <a href="accounts.html"><img  id = "account" src = "../../media/account.jpg" alt=""></a>
+            
+            <div id = "tabsRight2">
+                <a href="sign up.html">SIGN-UP</a>
+            </div>
+
+            <div id = "tabsRight2">
+                <a href="log_in_final.html">LOG-IN</a>
+            </div>
+
+            <div id = "tabsRight2">
+                <a href="gallery.html">GALLERY</a>
+            </div>
+
+            <div id = "tabsRight2">
+                <a href="contact us.html">CONTACT-US</a>
+            </div>
+            
+            <hr width = "100%" size = "2" color = "black" NOSHADE>
+
+        
+
+            
+
+            <div id = "tabs">
+                <a href="MainPageClothes.html">CLOTHES</a>
+            </div>
+
+            <div id = "tabs">
+                <a href="Gadgets.html">GADGETS</a>
+            </div>
+              
+            <div id = "tabs">
+                <a href="Hardware.html">HARDWARE</a>
+            </div>
+              
+            <div id = "tabs">
+                <a href="Appliances.html">APPLIANCES</a>
+            </div>
+              
+            <div id = "tabs">
+                <a href="sports.html">SPORTS</a>
+            </div>
+              
+            <div id = "tabs">
+                <a href="hobbies.html">HOBBIES</a>
+            </div>
+            <div id = "tabs">
+                <a href="Home.html">HOME</a>
+            </div>
+
+              
+
+              <a href="Cartorder.html"><img id = "shoppingcart" src="../../media/shoppingcart.png" alt=""></a>
+
+            <div id = "tabsRight">
+                <a href="../../INDEX.HTML">HOME</a>
+            </div>
+              
+            <div id = "tabsRight">
+                <a href="about.html">ABOUT US</a>
+            </div>
+
+            <div id = "tabsRight">
+                <a href="authors.html">AUTHOR</a>
+            </div>
+
+        <hr width = "100%" size = "2" color = "black" NOSHADE>
+        </div>
+
+        <a href="../../INDEX.HTML" class="back" ><button class="back"><---- Go Back</button></a>
+
+            <h2>HARDWARE</h2>
+
+            <div class="carousel-wrapper">
+
+                <span id="item-1"></span>
+                <span id="item-2"></span>
+                <span id="item-3"></span>
+            
+                <div class="carousel-item item-1">
+                    <p class="ft"></p>
+                  <a href="#item-3" class="arrow-prev arrow"></a>
+                  <a href="#item-2" class="arrow-next arrow"></a>
+                </div>
+            
+                <div class="carousel-item item-2">
+                    <p class="ft"></p>
+                  <a href="#item-1" class="arrow-prev arrow"></a>
+                  <a href="#item-3" class="arrow-next arrow"></a>
+                </div>
+            
+                <div class="carousel-item item-3">
+                    <p class="ft"></p>
+                  <a href="#item-2" class="arrow-prev arrow"></a>
+                  <a href="#item-1" class="arrow-next arrow"></a>
+                </div>
+            
+              </div>
+
+            <a href="../hardware/power tools/power.html"><img class="hardware" src="../../media/power tools.jpg" >
+
+            <a href="../hardware/storage/storage.html"><img class="hardware" src="../../media/storage.jpg" >
+
+            <a href="../hardware/gardening/gardening.html"><img class="hardware" src="../../media/gardening.jpg" >
+
+            <a href="../hardware/equipments/equipment.html"><img class="hardware" src="../../media/equipments.jpg" >
+
+            <a href=""><img class="hardware" src="../../media/all.jpg" >
+        </body>
+    </head>
+</html>
