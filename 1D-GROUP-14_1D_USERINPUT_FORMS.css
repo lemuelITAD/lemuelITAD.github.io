@@ -1,0 +1,140 @@
+body{
+    background-image: url(1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div.head{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    height: 110px;
+    width: 450px;
+    border: 5px double orangered;
+    background-color: wheat;
+    margin: 20px 0px 0px 750px;
+}
+
+div.name{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: wheat;
+    text-align: center;
+    height: 60px;
+    width: 450px;
+    border: 5px double wheat;
+    background-color: orangered;
+    margin: 50px 0px 0px 750px;
+}
+
+div.input{
+    height: 70px;
+    width: 450px;
+    border: 5px double wheat;
+    background-color: wheat;
+    margin: 0px 0px 0px 750px;
+}
+
+input.input{
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    border: 5px double orangered;
+    border-radius: 50px;
+    margin: 10px 0px 10px 25px;
+}
+
+div.degree{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: wheat;
+    text-align: center;
+    height: 60px;
+    width: 450px;
+    border: 5px double wheat;
+    background-color: orangered;
+    margin: 50px 0px 0px 750px;
+}
+
+div.input1{
+    height: 110px;
+    width: 450px;
+    border: 5px double wheat;
+    background-color: wheat;
+    margin: 0px 0px 0px 750px;
+}
+
+input.input1{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    border: 5px double orangered;
+    border-radius: 50px;
+    margin: 10px 0px 10px 25px;
+}
+
+input.submit{
+    font-size: 20px;
+    font-family: fantasy;
+    color: orangered;
+    border: 5px double orangered;
+    border-radius: 50px;
+    background-color: wheat; 
+    margin: 20px 0px 0px 870px;
+    padding: 10px 30px 10px 30px;
+}
+
+div.output{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: wheat;
+    text-align: center;
+    height: 200px;
+    width: 600px;
+    border: 5px double wheat;
+    background-color: orangered;
+    margin: 50px 0px 0px 660px;
+}
+
+div.head2{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    height: 110px;
+    width: 450px;
+    border: 5px double orangered;
+    background-color: wheat;
+    margin: 20px 0px 0px 750px;
+}
+
+div.input2{
+    height: 50px;
+    width: 450px;
+    text-align: center;
+    border: 5px double wheat;
+    background-color: wheat;
+    margin: 0px 0px 0px 750px;
+}
+
+div.output2{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: wheat;
+    text-align: center;
+    height: 100px;
+    width: 600px;
+    border: 5px double wheat;
+    background-color: orangered;
+    margin: 50px 0px 0px 660px;
+}
+
+a{
+    margin-left: 810px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: wheat;
+    border: 3px solid wheat;
+    background-color: rgb(29, 27, 27);
+}

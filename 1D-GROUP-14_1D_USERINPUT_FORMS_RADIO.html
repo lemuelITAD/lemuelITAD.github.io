@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Using Radio/Checkbox</title>
+        <meta charset="utf-8" />
+        <style>
+
+        </style>
+    </head>
+
+    <body>
+        <link rel="stylesheet" href="1D-GROUP-14_1D_USERINPUT_FORMS.css">
+
+        <div class="head2">
+            <h3>Using the RadioButton</h3>
+        </div>
+
+        <form method="post" action="1D-GROUP-14_1D_USERINPUT_FORMS_RADIO.php">
+            <div class="name">
+                <p>FIRST NAME:</p><br/>
+            </div> 
+            <div class="input">
+                <input class="input" type="text" name="firstname" size="30">
+            </div>
+
+            <div class="degree">
+                <p>EMPLOYEE TYPE</p>:
+            </div>
+            <div class="input2">
+                <input class="input1" type="radio" name="etype" id="Fulltime" value="Full Time"> 
+                <label for="Fulltime">FULL TIME</label>
+
+                <input class="input1" type="radio" name="etype" id="Parttime" value="Part Time">
+                <label for="Parttime">PART TIME</label>
+            </div>
+
+            <p><input class="submit" type="submit" value="Submit Information"></p>
+        </form>
+    </body>
+</html>
