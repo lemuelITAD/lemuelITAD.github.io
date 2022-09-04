@@ -1,0 +1,624 @@
+li {
+    line-height: 40px;
+    font-family: sans-serif;
+}
+img.a {
+    height: 200px;
+    width: 150px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+td{
+    border: 1px solid black;
+    padding: 20px;
+    line-height: 40px
+}
+td.a{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+td.b {
+    text-indent: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+body{
+    background-color: #3B9AA3;
+}
+p.a{
+    font-size: 14px;
+    text-align: center;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+div.a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: -10%;
+    padding-bottom: 40px;
+    width: 40%;
+    background-image: linear-gradient(to right, white, rgba(219, 133, 73, .56));
+    border: 10px outset rgb(75, 77, 71);
+    box-shadow: 5px 5px 20px black;
+    font-size: 20px;
+}
+div.b {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 70%;
+    background-image: linear-gradient(to right, white, rgba(219, 133, 73, .56));
+    border: 10px outset rgb(75, 77, 71);
+    box-shadow: 5px 5px 20px black;
+}
+hr{
+    background-color: black;
+    height: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h2{
+    text-align: center;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a.f{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+a:hover {color: blue;}
+
+img.arrowButton{
+    height: 50px;
+    width: 50px;
+    bottom: 0%;
+    right: 0%;
+    float: right;
+    position: fixed;
+    opacity: 75%;
+}
+
+h3{
+    visibility: hidden;
+    font-size: 0px
+}
+
+
+/* act 4----------------------------------------------------------------------------*/
+* {
+    margin: 0%;
+}
+
+div.menu{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    top: 0%;
+    position: fixed;
+}
+
+div.menuItems{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 220px;
+    margin-left: 50px;
+}
+
+div.space{
+    margin-top: 300px;
+}
+div.container {
+    position: relative;
+    width: 50%;
+}
+span {
+    margin-right: 50px;
+    font-family: 'Cooper Black', serif;
+    font-size: 20px;
+    color: #8F430D;
+    -webkit-text-stroke-width: 0.51px;
+    -webkit-text-stroke-color: white;
+}
+
+div.banner{
+    padding: 20px 40px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 1);
+}
+div.bannerbg{
+    background: rgba(219, 133, 73, .56);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 20px;
+    display: block;
+}
+div.bannerbgbg {
+    padding: 40px 20px;
+    background: rgba(255, 255, 255, .4);
+    margin-top: 150px;
+
+}
+
+div.moviebgbg{
+    padding-top: 4px;
+    padding-bottom: 20px;
+    background: rgba(255, 255, 255, .4);;
+}
+
+img.film {
+    display: block;
+    float: right;
+    height: 180px;
+    width: 250px;
+    margin-right: 40px;
+    
+}
+
+h1.watch {
+    font-size: 50px;
+    font-family: 'Cooper Black', sans-serif;
+    color: #8F430D;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+p{
+    font-size: 18px;
+    font-family: helvetica,sans-serif;
+}
+h1.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img.logo{
+    height: 35px;
+    width: 180px;
+    margin-left: 180px;
+    margin-right: 20px;
+}
+td.bannerimg{
+    padding: 0%;
+    opacity: 0.7;
+    border: none;
+}
+img.banner1{
+    margin-top: 20px;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+    display: block;
+}
+div.animeban{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    top: 56.2%;
+    left: 10.4%;
+    width: 300px;
+    height: 400px;
+    color: #ffffff;    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    opacity: 0;
+    transition: ease-out 0.30s;
+    font-family: 'Cooper Black', san-serif;
+    font-size: 50px;
+    color: #8F430D;
+    -webkit-text-stroke-width: 0.51px;
+    -webkit-text-stroke-color: white;
+}
+div.cartoonban{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    top: 56.2%;
+    left: 30.2%;
+    width: 300px;
+    height: 400px;
+    color: #ffffff;    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    opacity: 0;
+    transition: ease-out 0.30s;
+    font-family: 'Cooper Black', san-serif;
+    font-size: 50px;
+    color: #8F430D;
+    -webkit-text-stroke-width: 0.51px;
+    -webkit-text-stroke-color: white;
+}
+
+div.easternban{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    top: 56.2%;
+    left: 50.2%;
+    width: 300px;
+    height: 400px;
+    color: #ffffff;    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    opacity: 0;
+    transition: ease-out 0.30s;
+    font-family: 'Cooper Black', san-serif;
+    font-size: 50px;
+    color: #8F430D;
+    -webkit-text-stroke-width: 0.51px;
+    -webkit-text-stroke-color: white;
+}
+
+div.westernban{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    top: 56.2%;
+    left: 70%;
+    width: 300px;
+    height: 400px;
+    color: #ffffff;    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    opacity: 0;
+    transition: ease-out 0.30s;
+    font-family: 'Cooper Black', san-serif;
+    font-size: 50px;
+    color: #8F430D;
+    -webkit-text-stroke-width: 0.51px;
+    -webkit-text-stroke-color: white;
+}
+
+.animeban:hover{
+    opacity: 1;
+}
+
+.cartoonban:hover{
+    opacity: 1;
+}
+
+.easternban:hover{
+    opacity: 1;
+}
+
+.westernban:hover{
+    opacity: 1;
+}
+/*----------------------------------------------------------------------------*/
+
+@media(max-width: 1000px) {
+    table{
+        width: auto;
+    }
+    img.a{
+        height: 200px;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    td.a{
+        font-size: 18px;
+    }
+    td.b{
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    img.arrowButton {
+        height: 40px;
+        width: 40px;
+    }
+    div.b{
+        width: 92%;
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+
+    img.banner1{
+        margin-top: 20px;
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+        position: relative;
+        display: block;
+    }
+
+    div.animeban {
+        visibility: hidden;
+    }
+    div.catoonban {
+        visibility: hidden;
+    }
+    div.easternban{
+        visibility: hidden;
+    }
+    div.westernban{
+        visibility: hidden;
+    }
+
+    .animeban:hover{
+        opacity: 0;
+    }
+    
+    .cartoonban:hover{
+        opacity: 0;
+    }
+    
+    .easternban:hover{
+        opacity: 0;
+    }
+    
+    .westernban:hover{
+        opacity: 0;
+    }
+    /*
+    div.animeban{
+        top: 74%;
+        left: 6.9%;
+        width: 200px;
+        height: 300px;
+        font-size: 30px;
+    }
+    div.cartoonban{
+        top: 74%;
+        left: 28.7%;
+        width: 200px;
+        height: 300px;
+        font-size: 30px;
+    }
+    
+    div.easternban{
+        top: 74%;
+        left: 50.2%;
+        width: 200px;
+        height: 300px;
+        font-size: 30px;
+    }
+    
+    div.westernban{
+        top: 74%;
+        left: 72%;
+        width: 200px;
+        height: 300px;
+        font-size: 30px;
+    }
+    */
+}
+
+/*----------------------------------------------------------------------------*/
+
+@media(max-width: 750px) {
+    table{
+        padding-left: 7px;
+        width:141%;
+    }
+    div.b {
+        margin-left: 40px;
+        margin-right: 40px;
+        width: 80%;
+    }
+    img.a{
+        height: 270px;
+        width: 190px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    td.a{
+        font-size: 16px;
+        display:block;
+        font-weight: bold;
+    }
+    td.b{
+        font-size: 16px;
+        text-align: justify;
+        display: block;
+    }
+    td.c{
+        display: block;
+    }
+    img.arrowButton {
+        height: 40px;
+        width: 40px;
+    }
+    th{
+        visibility: hidden;
+    }
+    h3{
+        visibility:visible;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: -40px;
+    }
+    img.film{
+        visibility: hidden;
+        width: 0%;
+        height: 0%;
+    }
+
+    img.banner1{
+        margin-top: 20px;
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+        position: relative;
+        display: block;
+    }
+
+    p{
+        line-height: 30px;
+    }
+    /*
+    div.bannerbg{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    td.bannerimg{
+        display: block;
+        margin-left: 25%;
+    }
+
+    div.animeban{
+        top: 74%;
+        left: 6.9%;
+        width: 200px;
+        height: 300px;
+        font-size: 30px;
+    }
+    div.cartoonban{
+        top: 74%;
+        left: 28.7%;
+        width: 200px;
+        height: 300px;
+        font-size: 30px;
+    }
+    
+    div.easternban{
+        top: 74%;
+        left: 50.2%;
+        width: 200px;
+        height: 300px;
+        font-size: 30px;
+    }
+    
+    div.westernban{
+        top: 74%;
+        left: 72%;
+        width: 200px;
+        height: 300px;
+        font-size: 30px;
+    }
+    */
+}
+
+/*----------------------------------------------------------------------------*/
+
+@media(max-width: 500px) {
+    table{
+        padding-left: 13px;
+        width: auto;
+    }
+    div.b {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    img.a{
+        height: 230px;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    td.a{
+        font-size: 16px;
+        display:block;
+    }
+    td.b{
+        font-size: 16px;
+        text-align: justify;
+        display: block;
+    }
+    td.c{
+        display: block;
+    }
+    img.arrowButton {
+        height: 40px;
+        width: 40px;
+    }
+    th{
+        visibility: hidden;
+    }
+
+    td.bannerimg{
+        display: block;
+    }
+    h1.watch{
+        text-align: center;
+    }
+    h2{
+        font-size: 18px;
+    }
+    a.f{
+        font-size: 16px;
+    }
+    a.k{
+        font-size: 14px;
+    }
+    div.bannerbg{
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    /*
+    div.animeban{
+        top: 99.5%;
+        left: 30%;
+        width: 200px;
+        height: 300px;
+        font-size: 30px;
+        opacity: 1;
+        transition: none;
+    }
+    div.cartoonban{
+        top: 147.8%;
+        left: 30.2%;
+        width: 200px;
+        height: 300px;
+        font-size: 30px;
+        opacity: 1;
+        transition: none;
+    }
+    
+    div.easternban{
+        top: 196.2%;
+        left: 30%;
+        width: 200px;
+        height: 300px;
+        font-size: 30px;
+        opacity: 1;
+        transition: none;
+    }
+    
+    div.westernban{
+        top: 244.5%;
+        left: 30%;
+        width: 200px;
+        height: 300px;
+        font-size: 30px;
+        opacity: 1;
+        transition: none;
+    }
+    */
+}
