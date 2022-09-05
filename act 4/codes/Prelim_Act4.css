@@ -1,0 +1,795 @@
+li {
+    line-height: 40px;
+    font-family: sans-serif;
+}
+img.a {
+    height: 200px;
+    width: 150px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+td{
+    border: 1px solid black;
+    padding: 20px;
+    line-height: 40px
+}
+td.a{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+td.b {
+    text-indent: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+body{
+    background-image: url(https://img.freepik.com/premium-vector/seamless-sakura-petals-falling-realistic-cherry-petals_88211-1369.jpg);
+}
+p.a{
+    font-size: 14px;
+    text-align: center;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+div.a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: -10%;
+    padding-bottom: 40px;
+    width: 40%;
+    background-image: url(https://www.pngitem.com/pimgs/m/14-140198_transparent-cherry-blossom-png-cherry-blossoms-falling-png.png);
+    border: 10px outset rgb(75, 77, 71);
+    box-shadow: 5px 5px 20px black;
+    font-size: 20px;
+}
+div.b {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 70%;
+    background-image: url(https://www.pngitem.com/pimgs/m/14-140198_transparent-cherry-blossom-png-cherry-blossoms-falling-png.png);
+    border: 10px outset rgb(75, 77, 71);
+    box-shadow: 5px 5px 20px black;
+}
+hr{
+    background-color: black;
+    height: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h2{
+    text-align: center;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a.f{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+a:hover {color: blue;}
+
+img.arrowButton{
+    height: 50px;
+    width: 50px;
+    bottom: 0%;
+    right: 0%;
+    float: right;
+    position: fixed;
+    opacity: 75%;
+}
+
+h3{
+    visibility: hidden;
+    font-size: 0px
+}
+
+
+/* act 4----------------------------------------------------------------------------*/
+* {
+    margin: 0%;
+}
+img.tree{
+    display: block;
+    float: right;
+    width: 60%;
+    height: 60%;
+    opacity: .75;
+}
+img.lemon{
+    float: left;
+    display: block;
+    width: 26%;
+    height: 25%;
+    margin-top: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 4%;
+    padding-left: 10%;
+    background-color: rgb(83, 76, 76, .3);
+}
+
+div.menu{
+    background-color: rgb(83, 76, 76);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    top: 0%;
+    position: fixed;
+}
+
+div.menuItems{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 220px;
+    margin-left: 50px;
+}
+
+div.space{
+    margin-top: 300px;
+}
+div.container {
+    position: relative;
+    width: 50%;
+}
+span {
+    margin-right: 50px;
+    font-family: 'Cooper Black', serif;
+    font-size: 20px;
+    color: rgba(255, 183, 197, 1);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+div.banner{
+    padding: 20px 40px;
+    text-align: justify;
+    color: white;
+}
+div.bannerbg{
+    background-color: rgba(83, 76, 76, .5);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 20px;
+    display: block;
+    margin-top: 12em;
+}
+div.bannerbgbg {
+    padding: 40px 20px;
+    margin-top: 35em;
+    height: 160%;
+    background-image: linear-gradient(to bottom, white, rgba(255, 183, 197, 1), rgba(255, 183, 197, 1), white);
+
+}
+
+div.moviebgbg{
+    padding-top: 4px;
+    padding-bottom: 20px;
+    background: rgba(255, 255, 255, .4);
+}
+
+img.film {
+    display: block;
+    float: right;
+    height: 180px;
+    width: 250px;
+    margin-right: 40px;
+}
+
+h1.watch {
+    font-size: 50px;
+    font-family: 'Cooper Black', sans-serif;
+    color: #ffb7c5;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Book', helvetica,'sans-serif';
+}
+h1.title {
+    font-family: 'Cooper Black', 'Sans-Serif';
+    color: rgba(255, 183, 197, 1);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+img.logo{
+    height: 35px;
+    width: 180px;
+    margin-left: 180px;
+    margin-right: 20px;
+}
+td.bannerimg{
+    padding: 0%;
+    opacity: 0.7;
+    border: none;
+}
+img.banner1{
+    margin-top: 20px;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+}
+div.animeban{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    width: 6em;
+    height: 8em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    opacity: 0;
+    transition: ease-out 0.30s;
+    font-family: 'Cooper Black', san-serif;
+    font-size: 50px;
+    color: rgba(255, 183, 197, 1);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    -webkit-transform: translate(0%, -180%);
+    -ms-transform: translate(0%, -100%);
+    transform: translate(0%, -100%);
+}
+div.cartoonban{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    width: 6em;
+    height: 8em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    opacity: 0;
+    transition: ease-out 0.30s;
+    font-family: 'Cooper Black', san-serif;
+    font-size: 50px;
+    color: rgba(255, 183, 197, 1);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    -webkit-transform: translate(0%, -180%);
+    -ms-transform: translate(0%, -100%);
+    transform: translate(0%, -100%);
+}
+
+div.easternban{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    width: 6em;
+    height: 8em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    opacity: 0;
+    transition: ease-out 0.30s;
+    font-family: 'Cooper Black', san-serif;
+    font-size: 50px;
+    color: rgba(255, 183, 197, 1);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    -webkit-transform: translate(0%, -180%);
+    -ms-transform: translate(0%, -100%);
+    transform: translate(0%, -100%);
+}
+
+div.westernban{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    width: 6em;
+    height: 8em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    opacity: 0;
+    transition: ease-out 0.30s;
+    font-family: 'Cooper Black', san-serif;
+    font-size: 50px;
+    color: rgba(255, 183, 197, 1);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    -webkit-transform: translate(0%, -180%);
+    -ms-transform: translate(0%, -100%);
+    transform: translate(0%, -100%);
+}
+
+div.container1{
+    width: 20%;
+    height: 20%;
+}
+.animeban:hover{
+    opacity: 1;
+}
+
+.cartoonban:hover{
+    opacity: 1;
+}
+
+.easternban:hover{
+    opacity: 1;
+}
+
+.westernban:hover{
+    opacity: 1;
+}
+td.mobile {
+    display: none;
+}
+
+div.animobbg{
+    display: none;
+}
+div.carmobbg{
+    display: none;
+}
+div.eastmobbg{
+    display: none;
+}
+div.westmobbg{
+    display: none;
+}
+
+/*----------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1880px) {
+    img.tree{
+        display: block;
+        float: right;
+        width: 60%;
+        height: 60%;
+        opacity: .75;
+    }
+    img.lemon{
+        width: 23%;
+        height: 19%;
+        background-color: rgb(83, 76, 76, .3);
+    }
+    
+    span {
+        margin-right: 50px;
+        font-family: 'Cooper Black', serif;
+        font-size: 30px;
+        color: rgba(255, 183, 197, 1);
+        -webkit-text-stroke-width: 2px;
+    }
+    
+    div.moviebgbg{
+        padding-top: 4px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        background: rgba(255, 255, 255, .4);
+    }
+
+    p{
+        font-size: 25px;
+        font-family: 'Franklin Gothic Book', helvetica,'sans-serif';
+    }
+
+    h1.title {
+        font-family: 'Cooper Black', 'Sans-Serif';
+        font-size: 45px;
+        color: rgba(255, 183, 197, 1);
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 2px;
+    }
+    h1.watch{
+        font-size: 75px;
+    }
+    
+    h2{
+        font-size: 50px;
+    }
+    img.logo{
+        height: 35px;
+        width: 180px;
+        margin-left: 300px;
+        margin-right: 20px;
+    }
+    td.bannerimg{
+        padding: 0%;
+    }
+    img.banner1{
+        margin-top: 20px;
+        width: 400px;
+        height: 500px;
+    }
+    div.animeban{
+        width: 8em;
+        height: 10em;
+    }
+    div.cartoonban{
+        width: 8em;
+        height: 10em;
+    }
+    
+    div.easternban{
+        width: 8em;
+        height: 10em;
+    }
+    
+    div.westernban{
+        width: 8em;
+        height: 10em;
+    }
+    li{
+        margin-left: 30px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+    a.f{
+        font-size: 30px;
+    }
+    td.a{
+        font-size: 30px;
+    }
+    td.b{
+        font-size: 26;
+        line-height: 70px;
+    }
+    td.c{
+        width: 30%;
+    }
+    img.a{
+        width: 90%;
+        height: 20%;
+        margin-left: 20px;
+    }
+    p.a{
+        font-size: 20px;
+    }
+}
+
+/*----------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1280px) {
+    table{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 100%;
+    }
+    div.b {
+        width: 90%;
+    }
+    img.a{
+        height: 400px;
+        width: 290px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    td.a{
+        font-size: 20px;
+        display:block;
+        font-weight: bold;
+        width: 125%;
+    }
+    td.b{
+        font-size: 20px;
+        text-align: justify;
+        display: block;
+        width: 125%;
+    }
+    td.c{
+        display: block;
+        width: 125%;
+    }
+    img.arrowButton {
+        height: 40px;
+        width: 40px;
+    }
+    th{
+        visibility: hidden;
+    }
+    h3{
+        visibility:visible;
+        font-size: 24px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: -40px;
+    }
+
+    img.banner1{
+        margin-top: 20px;
+        width: 15em;
+        height: 22em;
+    }
+
+    div.animeban{
+        width: 7.5em;
+        height: 11em;
+        font-size: 32px;
+    }
+    div.cartoonban{
+        width: 7.5em;
+        height: 11em;
+        font-size: 32px;
+    }
+    
+    div.easternban{
+        width: 7.5em;
+        height: 11em;
+        font-size: 32px;
+    }
+    
+    div.westernban{
+        width: 7.5em;
+        height: 11em;
+        font-size: 32px;
+    }
+
+    p{
+        line-height: 30px;
+    }
+    td.bannerimg{
+        margin: 0% -20%;
+    }
+    img.lemon{
+        width: 50%;
+        margin-top: -30%;
+    }
+    img.tree{
+        opacity: .3;
+    }
+}
+
+/*----------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1080px) {
+    div.animobbg{
+        display: block;
+        background-color: white;
+        float: right;
+        margin-right: -250%;
+        margin-top: -130%;
+        padding: 20px 100px;
+        font-family: 'Cooper black', 'Sans serif';
+        font-size: 1.5em;
+    }
+    div.carmobbg{
+        display: block;
+        background-color: white;
+        float: right;
+        margin-right: -250%;
+        margin-top: -130%;
+        padding: 20px 72px;
+        font-family: 'Cooper black', 'Sans serif';
+        font-size: 1.5em;
+    }
+    div.eastmobbg{
+        display: block;
+        background-color: white;
+        float: right;
+        margin-right: 28%;
+        margin-top: 10%;
+        padding: 20px 80px;
+        font-family: 'Cooper black', 'Sans serif';
+        font-size: 1.5em;
+    }
+    div.westmobbg{
+        display: block;
+        background-color: white;
+        float: right;
+        margin-right: 30%;
+        margin-top: 10%;
+        padding: 20px 72px;
+        font-family: 'Cooper black', 'Sans serif';
+        font-size: 1.5em;
+    }
+
+    div.a{
+        padding-right: 1em;
+    }
+    div.b {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    div.bannerbgbg {
+        height: 400%;
+    }
+    img.a{
+        height: 350px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    td.a{
+        font-size: 20px;
+        display:block;
+        width: 148%;
+    }
+    td.b{
+        font-size: 20px;
+        text-align: justify;
+        display: block;
+        width: 148%;
+    }
+    td.c{
+        display: block;
+        width: 148%;
+    }
+    th{
+        visibility: hidden;
+    }
+
+    td.bannerimg{
+        display: block;
+        margin-left: 15%;
+    }
+    h1.watch{
+        text-align: center;
+    }
+    h2{
+        font-size: 24px;
+    }
+    a.f{
+        font-size: 20px;
+    }
+    a.k{
+        font-size: 14px;
+    }
+    div.bannerbg{
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    img.banner1{
+        width: 300px;
+        height: 400px;
+    }
+    div.animeban{
+        display: none;
+    }
+    div.cartoonban{
+        display: none;
+    }
+    div.easternban{
+        display: none;
+    }
+    div.westernban{
+        display: none;
+    }
+}
+
+
+/*----------------------------------------------------------------------------*/
+
+@media screen and (max-width: 830px) and (min-width: 773px) {
+    body{
+        background-color: black;
+    }
+    td.a{
+        font-size: 16px;
+    }
+    td.b{
+        font-size: 16px;
+    }
+    img.a{
+        width: 200px;
+        height: 300px;
+    }
+    img.arrowButton {
+        height: 40px;
+        width: 40px;
+    }
+    div.animobbg{
+        padding: 20px 40px;
+        font-size: 2em;
+        margin-right: -210%;
+        margin-top: -95%;
+    }
+    div.carmobbg{
+        padding: 20px 40px;
+        margin-right: -210%;
+        margin-top: -95%;
+    }
+    div.eastmobbg{
+        padding: 20px 40px;
+        margin-right: 37%;
+        margin-top: 10%;
+    }
+    div.westmobbg{
+        padding: 20px 40px;
+        margin-right: 37%;
+        margin-top: 10%;
+    }
+    img.banner1{
+        width: 200px;
+        height: 300px;
+    }
+    img.lemon{
+        width: 50%;
+        margin-top: -30%;
+    }
+    img.tree{
+        opacity: .3;
+    }
+}
+
+/*----------------------------------------------------------------------------*/
+
+@media screen and (max-width: 773px) {
+    table{
+        margin-left: 1em;
+    }
+    td.a{
+        font-size: 14px;
+        width: 95%;
+    }
+    td.b{
+        font-size: 14px;
+        width: 95%;
+    }
+    td.c{
+        width: 95%;
+    }
+    img.a{
+        width: 200px;
+        height: 300px;
+    }
+    img.arrowButton {
+        height: 40px;
+        width: 40px;
+    }
+    div.animobbg{
+        padding: 20px 40px;
+        font-size: 1em;
+        margin-right: 5%;
+        margin-top: -35%;
+    }
+    div.carmobbg{
+        padding: 20px 40px;
+        font-size: 1em;
+        margin-right: 5%;
+        margin-top: -35%;
+    }
+    div.eastmobbg{
+        padding: 20px 40px;
+        font-size: 1em;
+        margin-right: 5%;
+        margin-top: -35%;
+    }
+    div.westmobbg{
+        padding: 20px 40px;
+        font-size: 1em;
+        margin-right: 5%;
+        margin-top: -35%;
+    }
+    img.banner1{
+        width: 200px;
+        height: 300px;
+    }
+    img.lemon{
+        width: 50%;
+        margin-top: -30%;
+    }
+    img.tree{
+        opacity: .4;
+    }
+}
