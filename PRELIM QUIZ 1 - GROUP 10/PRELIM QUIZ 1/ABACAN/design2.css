@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li, a, button {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background: rgb(28, 103, 88); /*<--- Header background*/
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo { /*Logo size*/
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    padding-top: 10px;
+}
+
+.nav_links li a {
+    font-size: 18px;
+    transition: all, 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    text-shadow: 2px 2px 4px black;
+}
+
+.button {
+    font-family: elephant, serif;
+    padding: 9px 25px;
+    color: #282828;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease-out 0.4s;
+}
+
+.button:hover {
+    box-shadow: inset 400px 0 0 0 #D2D79F;
+    color: black;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+}
+
+.logoHeader {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+}
+.description{
+    font-family: Lucida Sans;
+    font-size: 80px;
+    margin-top: -35%;
+    color: white;
+    background-color: rgba(61, 131, 97, 0.75);
+    width: 60%;
+    text-align: center;
+    padding: 20px 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 2px;
+}
+.descriptionsecond{
+    font-family: Lucida Sans;
+    font-size: 24px;
+    text-align: justify;
+    text-indent: 40px;
+    -webkit-text-stroke-width: 0px;
+}
+.buttonmid{
+    font-family: elephant, 'sans serif';
+    font-size: 24px;
+    margin-top: 1%;
+    color: white;
+    background-color: #282828;
+    padding: 20px 20px;
+    width: 20%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    /*-webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;*/
+    transition: ease-out 0.4s;
+}
+.buttonmid:hover{
+    box-shadow: inset 400px 0 0 0 #D2D79F;
+    color: black;
+    cursor: pointer;
+}
+.lowerpart{
+    background: rgb(28, 103, 88);
+    width: 100%;
+    padding-bottom: 200px;
+}
+.slideshow{
+    padding-top: 49.278%;
+    display: block;
+    height: max-content;
+    width: 100%;
+    background-image: url(https://whc.unesco.org/uploads/thumbs/activity_725-1200-630-20220308132126.jpg);
+    animation: animate 50s infinite ease-in-out;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+@keyframes animate{
+    25%{
+        background: url(https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2F1cm9yYXMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4Mjh9fX0=);
+        background-position: center center;
+        background-size: cover;
+        
+    }
+    50%{
+        background: url(https://media.cntraveler.com/photos/5cb63a0bc131b962ade953ad/master/w_4000,h_2670,c_limit/Banff-Canada_GettyImages-680900749.jpg);
+        background-position: center center;
+        background-size: cover;
+    }   
+    75%{
+        background: url(https://images.fineartamerica.com/images-medium-large-5/underwater-scenery-yosef-erpert.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+    100%{
+        background: url(https://whc.unesco.org/uploads/thumbs/activity_725-1200-630-20220308132126.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+}
